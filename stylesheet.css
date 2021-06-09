@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 160px 0 100px 0;
+  background-image: url(Picturefix.png);
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  color: #5f5d60;
+  text-align: center;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #f1c40f;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #154854;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #154854;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+.lesson img {
+  width: 250px;
+  border-radius: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.lesson h2 {
+  color: #5f5d60;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+  text-align: justify;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+.inner-footer {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.social-link {
+  display: flex;
+}
+.social-link ul {
+  display: flex;
+  width: 310px;
+  height: 80px;
+  margin: auto;
+}
+.social-item a {
+  padding: 20px;
+  font-size: 40px;
+  color: cyan;
+  list-style: none;
+}
+.quick-link {
+  display: flex;
+  width: 400px;
+  height: 70px;
+  margin: auto;
+}
+.quick-link ul {
+  display: flex;
+}
+.quick-item {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  list-style: none;
+}
+.quick-item a:hover {
+  color: cyan;
+}
+.quick-item a {
+  padding: 5px;
+  color: white;
+  transition: all 0.25s;
+}
+.outer-footer {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
